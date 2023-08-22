@@ -78,13 +78,16 @@ header{
         width: 64px;
     }
 
-@media (max-width: 780px)
+@media (max-width: 780px){
+
+
     header{
         padding-left: 25px;
     }
 
     .content-text{
-        transform: translateX(0%)    
+        transform: translateX(0%); 
         top: 80px;
         font-size: 100px;
     }
+}
